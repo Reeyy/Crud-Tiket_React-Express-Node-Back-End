@@ -1,0 +1,26 @@
+GET http://localhost:5000/users
+###
+GET http://localhost:5000/users/3
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "John Done23",
+    "email": "ewew@gmail.com",
+    "gender":"w"
+
+}
+###
+PATCH   http://localhost:5000/users/2
+Content-Type: application/json
+
+{
+    "name": "John Done3",
+    "email": "ewew@gmail.com",
+    "gender":"w"
+
+}
+###
+
+DELETE  http://localhost:5000/users/2
